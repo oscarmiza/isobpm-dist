@@ -1,0 +1,140 @@
+
+  /*==================================================================
+   KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT KIT  
+  ==================================================================*/
+  
+  .kit-overlay2,
+  .kit-overlay1 {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .kit-overlay2::before,
+  .kit-overlay1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: $primary-color;
+  }
+  
+  .kit-overlay1::before {opacity: 0.9;}
+  .kit-overlay2::before {opacity: 0.8;}
+  
+  /*---------------------------------------------*/
+  .kit-list1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .kit-list1::before {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 7px;
+  }
+  
+  .kit-list1 > a {
+    max-width: calc(100% - 17px);
+  }
+  
+  /*---------------------------------------------*/
+  .kit-list2 {
+    position: relative;
+    padding-left: 27px;
+  }
+  
+  .kit-list2::before {
+    content: "\f078";
+    font-family: FontAwesome;
+    font-size: 14px;
+    color: $grey-50;
+  
+    position: absolute;
+    left: 0;
+    top: -1px;
+  }
+  
+  
+  /*---------------------------------------------*/
+  .kit-symbol1 {
+    position: relative;
+  }
+  
+  .kit-symbol1::before {
+    content: "\f10d";
+    font-family: FontAwesome;
+    font-size: 36px;
+    color: $secundary-color;
+    line-height: 1;
+    position: absolute;
+    top: -5px;
+    left: -43px;
+  }
+  
+  /*---------------------------------------------*/
+  .kit-pos1 {
+    position: absolute;
+    top: -35px;
+    left: 50px;
+  }
+  
+  /*---------------------------------------------*/
+  @media (min-width: 1368px) {
+    .kit-pos2 {
+      position: relative;
+      height: 124px;
+    }
+  
+    .kit-pos2-1 {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+    }
+  }
+  
+  
+  /*---------------------------------------------*/
+  .kit-bor1 {
+    border: 10px solid $white-100;
+    border-bottom: none;
+  }
+  
+  @media (max-width: 1368px) {
+    .kit-bor1 {
+      border: none;
+    }
+  }
+  
+  /*---------------------------------------------*/
+  .kit-underline1 {
+    position: relative;
+  }
+  
+  .kit-underline1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ddd;
+    border-left: 70px solid $primary-color;
+  }
+  

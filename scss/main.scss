@@ -1,0 +1,38 @@
+/*------------------------------------------------------------------
+Project: Iso Bpm
+Version: 1.0
+Last change:  01/11/2020
+Assigned to:  Oscar Mizael Nuñez Garcia
+Primary use:  Web Company
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[LAYOUT]
+
+* body
+  + Header / header
+  + Page Content / .page-content .name-page
+        + Section Layouts / section .name-section
+        ...
+  + Footer / footer
+
+-------------------------------------------------------------------*/
+
+@import "color";
+@import "typography";
+@import "plugins";
+@import "header";
+@import "revslider";
+@import "body";
+@import "colors";
+@import "text";
+@import "size";
+@import "background";
+@import "kit";
+@import "pseudo";
+@import "other";
+@import "responsive";
+
+
+
+
+

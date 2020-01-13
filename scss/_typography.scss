@@ -1,0 +1,36 @@
+/*------------------------------------------------------------------
+[TYPOGRAPHY]
+
+Body            : 14px/1.7 'Roboto-Ragular', Arial, sans-serif;
+Title           : 36px/1.6 'Roboto-Bold', Arial, sans-serif;
+Paragrap        : 14px/1.7 'Roboto-Ragular', Arial, sans-serif;
+Input, textarea : 16px/1.5 'Roboto-Ragular', Arial, sans-serif;
+-------------------------------------------------------------------*/
+
+$typo-body: 14px/1.7 'Roboto-Regular', Arial, sans-serif;
+$typo-title: 36px/1.6 'Roboto-Bold', Arial, sans-serif;
+$typo-paragrap: 14px/1.7 'Roboto-Regular', Arial, sans-serif;
+$typo-input: 16px/1.5 'Roboto-Regular', Arial, sans-serif;
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+/*------------------------------------------------------------------
+[ 1 ]*/
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Roboto-Medium;
+    src: url('../fonts/Roboto/Roboto-Medium.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Roboto-Bold;
+    src: url('../fonts/Roboto/Roboto-Bold.ttf'); 
+  }
+  
+  

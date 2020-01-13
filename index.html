@@ -34,8 +34,14 @@
 </head>
 <body class="animsition">
 
+	<div class="scroll-container">
+
+
+	
+
+
 	<!-- Header -->
-	<header>
+	<header id="inicio">
 		<!-- Header desktop -->
 		<nav class="container-header-desktop">
 			<div class="top-bar">
@@ -98,7 +104,7 @@
 					<div class="menu-desktop">
 						<ul class="main-menu respon-sub-menu">
 							<li>
-								<a href="index.html">Inicio</a>
+								<a href="#inicio">Inicio</a>
 								<!-- <ul class="sub-menu">
 									<li><a href="index.html">Homepage v1</a></li>
 									<li><a href="home-02.html">Homepage v2</a></li>
@@ -107,7 +113,7 @@
 							</li>
 
 							<li>
-								<a href="about.html">¿Quienes Somos?</a>
+								<a href="#nosotros">¿Quienes Somos?</a>
 							</li>
 
 							<li>
@@ -574,31 +580,10 @@
 	</section>
 
 
-	<!-- Ventana modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="3" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Mensaje Enviado con Éxito</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h3>Gracias por completar el formulario, en breve recibirá su presupuesto.</h3>
-      </div>
-      <div class="modal-footer">
-        
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Gracias!</button>
-      </div>
-    </div>
-  </div>
-</div>
-
 
 
 	<!-- Expert -->
-	<section class="bg-0 p-t-100 p-b-100 p-t-0-sr991">
+	<section id="nosotros" class="bg-0 p-t-100 p-b-100 p-t-0-sr991">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-8 col-lg-12">
@@ -632,7 +617,7 @@
 
 							<div class="col-lg-6">
 								<div class="pos-realtive dis-none d-lg-block">
-									<img class="ab-b-c size-a-11" src="images/other-02.png" alt="IMG">
+									<img class="ab-b-c size-a-9" src="images/other-02.png" alt="IMG">
 								</div>
 							</div>
 						</div>
@@ -642,204 +627,48 @@
 		</div>
 	</section>
 
+    <!-- ======= 1.06 Cta Area ====== -->
+    <div class="ctaArea secPdngB animated">
+        <div class="container">
+            <div class="row ctaRow">
+                <div class="col-md-6">
+                    <div class="ctaImgOne">
+                        <img src="img/server.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 ctaCol">
+                    <div class="ctaRight ctaTxt">
+                        <div class="ctaCell">
+                            <div class="h2">Dedicated and Secured server for your website.</div>
+                            <p>Get the best speed for your website. Don’t lose anymore <br>clients for the slowest speed of your hosting service.</p>
+                            <a href="#" class="ctaBtn Btn"><i class="icofont icofont-rocket-alt-2"></i>Get Started Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 ctaCol">
+                    <div class="ctaLeft ctaTxt">
+                        <div class="ctaCell">
+                            <div class="h2">Super speed for your website to impress your visitor.</div>
+                            <p>Get the best speed for your website. Don’t lose anymore <br>clients for the slowest speed of your hosting service.</p>
+                            <div class="ctaBtn">
+                                <a href="#" class="btnOne Btn">read more</a>
+                                <a href="#" class="btnTwo Btn">Get Started Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-md-offset-1 ctaColBtm">
+                    <div class="ctaImgTwo">
+                        <img src="img/home-dsk-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ======= /1.06 Cta Area ====== -->
 
-	<!-- Services -->
-	<section class="bg-0 p-t-92 p-b-60">
-		<div class="container">
-			<!-- Title section -->
-			<div class="flex-col-c-c p-b-50">
-				<h3 class="t1-b-1 cl-3 txt-center m-b-11">
-					Our Services
-				</h3>
-
-				<div class="size-a-2 bg-3"></div>
-			</div>
-
-			<!--  -->
-			<div class="row justify-content-center">
-				<div class="col-sm-10 col-md-8 col-lg-4 p-b-40">
-					<div class="bg-10 h-full">
-						<a href="services-detail-01.html" class="hov-img0 of-hidden bg-0">
-							<img src="images/services-01.jpg" alt="IMG">
-						</a>
-
-						<div class="p-rl-30 p-t-26 p-b-20">
-							<h4 class="p-b-9">
-								<a href="services-detail-01.html" class="t1-m-1 cl-0 hov-link2 trans-02">
-									Management Training
-								</a>
-							</h4>
-
-							<p class="t1-s-2 cl-13">
-								We support and help people increase manage-ment experience.
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-10 col-md-8 col-lg-4 p-b-40">
-					<div class="bg-10 h-full">
-						<a href="services-detail-01.html" class="hov-img0 of-hidden bg-0">
-							<img src="images/services-02.jpg" alt="IMG">
-						</a>
-
-						<div class="p-rl-30 p-t-26 p-b-20">
-							<h4 class="p-b-9">
-								<a href="services-detail-01.html" class="t1-m-1 cl-0 hov-link2 trans-02">
-									Business Consulting
-								</a>
-							</h4>
-
-							<p class="t1-s-2 cl-13">
-								If you are going to use a passage of Lorem Ipsum, you need to be sure
-							</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-10 col-md-8 col-lg-4 p-b-40">
-					<div class="bg-10 h-full">
-						<a href="services-detail-01.html" class="hov-img0 of-hidden bg-0">
-							<img src="images/services-03.jpg" alt="IMG">
-						</a>
-
-						<div class="p-rl-30 p-t-26 p-b-20">
-							<h4 class="p-b-9">
-								<a href="services-detail-01.html" class="t1-m-1 cl-0 hov-link2 trans-02">
-									Financial Planning
-								</a>
-							</h4>
-
-							<p class="t1-s-2 cl-13">
-								Analysis the business plan for deployment in the market. 
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Why chosse us -->
-	<section class="bg-12 p-t-92 p-b-70">
-		<div class="container">
-			<!-- Title section -->
-			<div class="flex-col-c-c p-b-50">
-				<h3 class="t1-b-1 cl-3 txt-center m-b-11">
-					Why Chosse Us
-				</h3>
-
-				<div class="size-a-2 bg-3"></div>
-			</div>
-
-			<!--  -->
-			<div class="row justify-content-center">
-				<div class="col-sm-10 col-md-6 col-lg-3 p-b-30">
-					<!-- Block1 -->
-					<div class="block1 trans-04">
-						<div class="block1-show trans-04">
-							<div class="block1-symbol txt-center wrap-pic-max-s m-b-23 pos-relative lh-00 trans-04">
-								<img class="symbol-dark trans-04" src="images/icons/symbol-01-dark.png" alt="IMG">
-								<img class="symbol-light ab-t-c op-00 trans-04" src="images/icons/symbol-01-light.png" alt="IMG">
-							</div>
-
-							<h4 class="block1-title t1-m-1 text-uppercase cl-3 txt-center trans-04">
-								Experienced adviser
-							</h4>
-						</div>
-							
-						<div class="block1-hide flex-col-c-c p-t-8 trans-04">
-							<p class="t1-s-2 cl-12 txt-center p-b-26">
-								Sed nec egestas diam, vitae imper-diet nisi. Vivamus cursus
-							</p>
-
-							<a href="#" class="flex-c-c size-a-1 p-rl-15 t1-s-2 text-uppercase cl-6 bg-0 hov-btn1 trans-02">
-								Read More
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-10 col-md-6 col-lg-3 p-b-30">
-					<!-- Block1 -->
-					<div class="block1 trans-04">
-						<div class="block1-show trans-04">
-							<div class="block1-symbol txt-center wrap-pic-max-s m-b-23 pos-relative lh-00 trans-04">
-								<img class="symbol-dark trans-04" src="images/icons/symbol-02-dark.png" alt="IMG">
-								<img class="symbol-light ab-t-c op-00 trans-04" src="images/icons/symbol-02-light.png" alt="IMG">
-							</div>
-
-							<h4 class="block1-title t1-m-1 text-uppercase cl-3 txt-center trans-04">
-								Great Ideas 
-							</h4>
-						</div>
-							
-						<div class="block1-hide flex-col-c-c p-t-8 trans-04">
-							<p class="t1-s-2 cl-12 txt-center p-b-26">
-								Sed nec egestas diam, vitae imper-diet nisi. Vivamus cursus
-							</p>
-
-							<a href="#" class="flex-c-c size-a-1 p-rl-15 t1-s-2 text-uppercase cl-6 bg-0 hov-btn1 trans-02">
-								Read More
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-10 col-md-6 col-lg-3 p-b-30">
-					<!-- Block1 -->
-					<div class="block1 trans-04">
-						<div class="block1-show trans-04">
-							<div class="block1-symbol txt-center wrap-pic-max-s m-b-23 pos-relative lh-00 trans-04">
-								<img class="symbol-dark trans-04" src="images/icons/symbol-03-dark.png" alt="IMG">
-								<img class="symbol-light ab-t-c op-00 trans-04" src="images/icons/symbol-03-light.png" alt="IMG">
-							</div>
-
-							<h4 class="block1-title t1-m-1 text-uppercase cl-3 txt-center trans-04">
-								Worldwide System
-							</h4>
-						</div>
-							
-						<div class="block1-hide flex-col-c-c p-t-8 trans-04">
-							<p class="t1-s-2 cl-12 txt-center p-b-26">
-								Sed nec egestas diam, vitae imper-diet nisi. Vivamus cursus
-							</p>
-
-							<a href="#" class="flex-c-c size-a-1 p-rl-15 t1-s-2 text-uppercase cl-6 bg-0 hov-btn1 trans-02">
-								Read More
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-10 col-md-6 col-lg-3 p-b-30">
-					<!-- Block1 -->
-					<div class="block1 trans-04">
-						<div class="block1-show trans-04">
-							<div class="block1-symbol txt-center wrap-pic-max-s m-b-23 pos-relative lh-00 trans-04">
-								<img class="symbol-dark trans-04" src="images/icons/symbol-04-dark.png" alt="IMG">
-								<img class="symbol-light ab-t-c op-00 trans-04" src="images/icons/symbol-04-light.png" alt="IMG">
-							</div>
-
-							<h4 class="block1-title t1-m-1 text-uppercase cl-3 txt-center trans-04">
-								Security Information
-							</h4>
-						</div>
-							
-						<div class="block1-hide flex-col-c-c p-t-8 trans-04">
-							<p class="t1-s-2 cl-12 txt-center p-b-26">
-								Sed nec egestas diam, vitae imper-diet nisi. Vivamus cursus
-							</p>
-
-							<a href="#" class="flex-c-c size-a-1 p-rl-15 t1-s-2 text-uppercase cl-6 bg-0 hov-btn1 trans-02">
-								Read More
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<!-- Project -->
 	<section class="bg-12 p-t-92 p-b-60">
@@ -1101,53 +930,8 @@
 		</div>
 	</section>
 
-	<!-- Partners -->
-	<section class="bg-0 p-t-92 p-b-40">
-		<div class="container">
-			<!-- Title section -->
-			<div class="flex-col-c-c p-b-50">
-				<h3 class="t1-b-1 cl-3 txt-center m-b-11">
-					Business Partners
-				</h3>
-
-				<div class="size-a-2 bg-3"></div>
-			</div>
-
-			<!--  -->
-			<div class="row justify-content-center">
-				<div class="col-sm-4 col-lg-2 flex-c-c p-b-60">
-					<a href="#">
-						<img class="hov-img2 trans-02 max-s-full" src="images/icons/partner-01.png" alt="IMG">
-					</a>
-				</div>
-
-				<div class="col-sm-4 col-lg-2 flex-c-c p-b-60">
-					<a href="#">
-						<img class="hov-img2 trans-02 max-s-full" src="images/icons/partner-02.png" alt="IMG">
-					</a>
-				</div>
-
-				<div class="col-sm-4 col-lg-2 flex-c-c p-b-60">
-					<a href="#">
-						<img class="hov-img2 trans-02 max-s-full" src="images/icons/partner-03.png" alt="IMG">
-					</a>
-				</div>
-
-				<div class="col-sm-4 col-lg-2 flex-c-c p-b-60">
-					<a href="#">
-						<img class="hov-img2 trans-02 max-s-full" src="images/icons/partner-04.png" alt="IMG">
-					</a>
-				</div>
-
-				<div class="col-sm-4 col-lg-2 flex-c-c p-b-60">
-					<a href="#">
-						<img class="hov-img2 trans-02 max-s-full" src="images/icons/partner-05.png" alt="IMG">
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
+	
+	
 	<!-- Testimonials -->
 	<section class="parallax100 kit-overlay2 p-t-92 p-b-90" style="background-image: url(images/bg-01.jpg);">
 		<div class="container">
@@ -1156,10 +940,10 @@
 				<h3 class="t1-b-1 cl-0 txt-center m-b-11">
 					Testimonials
 				</h3>
-
+				
 				<div class="size-a-2 bg-0"></div>
 			</div>
-
+			
 			<!-- Slick1 -->
 			<div class="wrap-slick1">
 				<div class="slide-slick">
@@ -1314,37 +1098,54 @@
 	</section>
 
 
-	
-	<!-- Sign up -->
-	
-	<section class="bg-0 p-t-92 p-b-90">
+	<!-- Partners -->
+	<section class="bg-0 p-t-92 p-b-40">
 		<div class="container">
 			<!-- Title section -->
-			<div class="flex-col-c-c p-b-44">
+			<div class="flex-col-c-c p-b-50">
 				<h3 class="t1-b-1 cl-3 txt-center m-b-11">
-					Sign Up
+					Business Partners
 				</h3>
 
 				<div class="size-a-2 bg-3"></div>
 			</div>
 
 			<!--  -->
-			<div class="size-w-1 m-rl-auto">
-				<p class="size-w-2 m-rl-auto t1-s-2 cl6 txt-center p-b-13">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua
-				</p>
+			<div class="row justify-content-center">
+				<div class="col-sm-4 col-lg-2 flex-c-c p-b-60">
+					<a href="#">
+						<img class="hov-img2 trans-02 max-s-full" src="images/icons/partner-01.png" alt="IMG">
+					</a>
+				</div>
 
-				<form class="flex-wr-c-c">
-					<input class="size-a-5 bo-all-1 bcl-11 t1-m-2 cl-6 plh-6 p-rl-20 w-full-sr575 m-tb-10" type="text" name="email" placeholder="email@example.com">
+				<div class="col-sm-4 col-lg-2 flex-c-c p-b-60">
+					<a href="#">
+						<img class="hov-img2 trans-02 max-s-full" src="images/icons/partner-02.png" alt="IMG">
+					</a>
+				</div>
 
-					<button class="size-a-6 flex-c-c bg-11 t1-s-2 text-uppercase cl-0 hov-btn1 trans-02 m-tb-10">
-						Subscribe
-					</button>
-				</form>
+				<div class="col-sm-4 col-lg-2 flex-c-c p-b-60">
+					<a href="#">
+						<img class="hov-img2 trans-02 max-s-full" src="images/icons/partner-03.png" alt="IMG">
+					</a>
+				</div>
+
+				<div class="col-sm-4 col-lg-2 flex-c-c p-b-60">
+					<a href="#">
+						<img class="hov-img2 trans-02 max-s-full" src="images/icons/partner-04.png" alt="IMG">
+					</a>
+				</div>
+
+				<div class="col-sm-4 col-lg-2 flex-c-c p-b-60">
+					<a href="#">
+						<img class="hov-img2 trans-02 max-s-full" src="images/icons/partner-05.png" alt="IMG">
+					</a>
+				</div>
 			</div>
 		</div>
 	</section>
-	
+
+
 	<!-- Footer -->
 	<footer>
 		<div class="parallax100 kit-overlay1 p-t-35 p-b-10" style="background-image: url(images/bg-01.jpg);">
@@ -1525,12 +1326,13 @@
 		<div class="bg-10">
 			<div class="container txt-center p-tb-15">
 				<span class="t1-s-2 cl-14">
-					Copyright @ 2018 Designed by pencilblue. All rights reserved. 
+					Copyright @ 2020 Designed by Digital Workforce México. All rights reserved. 
 				</span>
 			</div>
 		</div>
 	</footer>
 
+</div>
 
 <!--===============================================================================================-->	
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>

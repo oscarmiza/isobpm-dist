@@ -707,3 +707,9 @@ footer {
     padding-top: 5px;
   }
 }
+
+
+body .scroll-container{
+    overflow-y: scroll;
+    scroll-behavior: smooth !important;
+}

@@ -381,24 +381,35 @@
 
     } catch(er) {console.log(er);}
 
-
+// Enviar email del formulario via google sin cambiar de pagina
     $("#envio").click(function (){
 
        var data= $("#forma").serialize();
        $.post("https://script.google.com/macros/s/AKfycbxGSgP8VJWpbAEy5LhhkwlFURvmrsSkTv9sx8dZ/exec", data, function(){
 
        console.log("Correcto");
-       
-        
-
        })
-
 
     })
     
     $(function () {
         $('[data-toggle="popover"]').popover()
       })
+//  fin Enviar email del formulario via google sin cambiar de pagina
+
+
+
+    //   animacion del scroll en menu
+
+     $('li a').on('click', function (e) {
+        var targetSec = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(targetSec).offset().top
+        }, 1000);
+    });
+
+    //  fin  animacion del scroll en menu
+
 
 
 })(jQuery);

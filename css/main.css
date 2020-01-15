@@ -42,16 +42,19 @@ Input, textarea : 16px/1.5 'Roboto-Ragular', Arial, sans-serif;
 @font-face {
   font-family: Roboto-Regular;
   src: url("../fonts/Roboto/Roboto-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Roboto-Medium;
   src: url("../fonts/Roboto/Roboto-Medium.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: Roboto-Bold;
   src: url("../fonts/Roboto/Roboto-Bold.ttf");
+  font-display: swap;
 }
 
 /*//////////////////////////////////////////////////////////////////

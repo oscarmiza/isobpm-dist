@@ -2040,6 +2040,10 @@ body .scroll-container {
   scroll-behavior: smooth !important;
 }
 
+.text-shadow-grey {
+  text-shadow: 0px 6px 7px rgba(40, 40, 40, 0.85);
+}
+
 /*==================================================================
      COLOR COLOR COLOR COLOR COLOR COLOR COLOR COLOR COLOR COLOR COLOR 
   ==================================================================*/

@@ -6,4 +6,4 @@
 # php -- END cPanel-generated handler, do not edit
 
 Options -Indexes
-ErrorDocument 404 /not-found-page.html
+ErrorDocument 404 /index.html

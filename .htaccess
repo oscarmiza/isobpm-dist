@@ -6,4 +6,8 @@
 # php -- END cPanel-generated handler, do not edit
 
 Options -Indexes
+
+RewriteEngine On 
+RewriteCond ${SERVER_PORT} 80
+RewriteRules ^(.*)$ https://iso-bpm.com/$1 [R,L]
 ErrorDocument 404 /index.html

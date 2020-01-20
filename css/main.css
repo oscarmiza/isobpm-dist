@@ -323,6 +323,11 @@ Input, textarea : 16px/1.5 'Roboto-Ragular', Arial, sans-serif;
   margin: 0 75px;
 }
 
+.logo-v2 img {
+  height: 100px;
+  margin-left: 1.5em;
+}
+
 @media (max-width: 1199px) {
   .header-v3 .logo-v2 {
     margin: 0 35px;
@@ -519,6 +524,10 @@ Input, textarea : 16px/1.5 'Roboto-Ragular', Arial, sans-serif;
   [ Fixed menu desktop ]*/
 .fix-menu-desktop {
   height: 110px;
+}
+
+.fix-menu-desktop .logo-v2 img {
+  height: 50px;
 }
 
 .fix-menu-desktop .wrap-menu-desktop {
@@ -729,6 +738,10 @@ Input, textarea : 16px/1.5 'Roboto-Ragular', Arial, sans-serif;
   .menu-mobile {
     display: none;
   }
+}
+
+.menu-centrado {
+  margin: 0 auto;
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -2644,7 +2657,7 @@ body .scroll-container {
   height: 100%;
   top: 0;
   left: 0;
-  background: #041b2c;
+  background: #05233a;
 }
 
 .kit-overlay1::before {

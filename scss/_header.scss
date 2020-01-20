@@ -95,11 +95,20 @@
     max-height: 65%;
     margin: 0 75px;
   }
+
+  .logo-v2 img {
+
+    height: 100px;
+    margin-left: 1.5em;
+
+  }
   
   @media (max-width: 1199px) {
     .header-v3 .logo-v2 {
       margin: 0 35px;
     }
+
+   
   }
   
   .header-v3 .logo-v2:before {
@@ -302,6 +311,13 @@
   [ Fixed menu desktop ]*/
   .fix-menu-desktop {
     height: 110px;
+
+    .logo-v2 img{
+
+      height: 50px;
+
+    }
+
   }
   
   .fix-menu-desktop .wrap-menu-desktop {
@@ -519,3 +535,9 @@
   }
   
   
+
+  .menu-centrado{
+
+    margin: 0 auto;
+
+  }
